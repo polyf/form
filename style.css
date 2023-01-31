@@ -1,0 +1,68 @@
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input {
+    border: 2px solid grey;
+    border-radius: 16px;
+    padding: 8px;
+    width: 100%;
+}
+
+input:focus {
+    border: 2px solid #2EB0FC;
+    outline: none;
+  }
+
+
+#submit {
+    
+    font-weight: bold;
+    width: 100%;
+    background-color: #8937CB;
+    color: white;
+    padding: 16px 32px 16px 32px;
+    border-radius: 16px;
+}
+
+#background {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    background-color: white;
+    border-radius: 16px;
+    margin: 32px;
+    padding: 64px;
+
+}
+
+body {
+    background: linear-gradient(0deg, rgba(153,34,195,1) 0%, rgba(45,178,253,1) 100%);
+
+}
+
+select {
+    border-radius: 16px;
+    padding: 8px;
+    border: 2px solid #2EB0FC;
+    outline: none;
+    width: 100%;
+}
+
+.name, .e-mail, .cpf, .nasc, .sexo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 16px;
+}
+ 
+#label__name {
+    justify-self: start;
+}
